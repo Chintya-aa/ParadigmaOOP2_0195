@@ -15,3 +15,9 @@ class serivedclass : public baseClass {
     }
 };
 
+int main() {
+    derivedClass a;
+    a.Perkenalan();
+
+    return 0;
+}
