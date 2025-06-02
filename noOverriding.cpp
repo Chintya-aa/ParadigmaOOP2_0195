@@ -8,7 +8,7 @@ class baseClass {
     }
 };
 
-class serivedclass : public baseClass {
+class derivedClass : public baseClass {
     public: 
     void perkenalan() {
         cout << "Hallo saya Function dari derived class";
@@ -17,7 +17,7 @@ class serivedclass : public baseClass {
 
 int main() {
     derivedClass a;
-    a.Perkenalan();
+    a.perkenalan();
 
     return 0;
 }
